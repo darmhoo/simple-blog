@@ -2,12 +2,17 @@ body{
     background-color: antiquewhite;
 
     font-size: 14px;
+    margin: 4px;
+}
+.total{
+    max-width: 100%;
 }
 .content{
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
-    position: fixed;
     max-width: 65%;
     padding: 4px;
+
+    content: normal;
 
 }
 .content h1{
@@ -15,7 +20,6 @@ body{
     color: midnightblue;
 }
 .sidebar{
-    position: relative;
     float: right;
     max-width: 30%;
     border: solid 4px midnightblue;
